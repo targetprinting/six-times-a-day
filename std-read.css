@@ -1,0 +1,83 @@
+   body {font-size:100.01% !important; background:#5D6471 !important}
+/*
+   @font-face {font-family: 'Architects Daughter'; src: url('ArchitectsDaughter.eot'); src: url('ArchitectsDaughter.eot?#iefix') format('embedded-opentype'), url('ArchitectsDaughter.otf') format('opentype'), url('ArchitectsDaughter.ttf') format('truetype')}
+   @font-face {font-family: 'Dancing Script'; src: url('DancingScript.eot'); src: url('DancingScript.eot?#iefix') format('embedded-opentype'), url('DancingScript.otf') format('opentype'), url('DancingScript.ttf') format('truetype')}
+   @font-face {font-family: 'Over The Rainbow'; src: url('OverTheRainbow.eot'); src: url('OverTheRainbow.eot?#iefix') format('embedded-opentype'), url('OverTheRainbow.otf') format('opentype'), url('OverTheRainbow.ttf') format('truetype')}
+   @font-face {font-family: 'Gloria Hallelujah'; src: url('GloriaHallelujah.eot'); src: url('GloriaHallelujah.eot?#iefix') format('embedded-opentype'), url('GloriaHallelujah.otf') format('opentype'), url('GloriaHallelujah.ttf') format('truetype')}
+   @font-face {font-family: 'Satisfy'; src: url('Satisfy.eot'); src: url('Satisfy.eot?#iefix') format('embedded-opentype'), url('Satisfy.otf') format('opentype'), url('Satisfy.ttf') format('truetype')}
+*/
+  @media screen, handheld {#stad-part {width:820px} }
+  @media screen and (max-width:820px), handheld and (max-width:820px) {#stad-part {width:100%; } }
+
+  @media screen {
+   #stad-part {background:#CCC; color:#1F3A59; text-align:left; lang="en-us"; padding:0.6%; margin:0 auto; font:18px/1.25 Arial, ArialMT, Helvetica, "Droid Sans Pro", sans-serif !important}
+  }
+  @media handheld {
+   #stad-part {background:#CCC; color:#1F3A59; text-align:left; lang="en-us"; padding:0.6%; margin:0 auto; font:14px/1.25 Arial, ArialMT, Helvetica, "Droid Sans Pro", sans-serif !important}
+  }
+  @media screen,handheld {
+   #stad-part h1, #stad-part h5 {margin:6.75% 0 0; font:1.775em/1.25 "Arial Black", ArialMT, Helvetica, "Droid Sans Pro", sans-serif !important}
+   #stad-part h2, #stad-part p, #stad-part div {font:1.0em/1.25 Arial, ArialMT, Helvetica, "Droid Sans Pro", sans-serif !important}
+   #stad-part a:link {text-decoration:underline; color:blue}
+   #stad-part a:visited {text-decoration:underline; color:purple}
+   #stad-part a:active {text-decoration:none; color:green}
+   #stad-part a:hover {text-decoration:none; font-weight:bold; color:red}
+   #stad-part img {max-width:100%; text-align:center; page-break-inside:avoid}
+   #stad-part img.center {margin-left:auto; margin-right:auto; display:block}
+   #stad-part .altImg {border:2px solid black}
+   #stad-part .tooltip-note{-moz-text-decoration-style: dotted; -moz-text-decoration-line: underline; -webkit-text-decoration-style: dotted; -webkit-text-decoration-line: underline;
+   							text-decoration-style:dotted; text-decoration-line: underline}
+  }
+  @media print {
+   #stad-part {min-width:600px; background:white; color:black; text-align:left; lang="en-us"; padding:10px; margin:0 auto; font:12pt/1.125 "Times New Roman", TimesNewRomanPSMT, Times, "Droid Serif Pro", serif !important}
+   #stad-part h1, #stad-part h5 {margin:6.75% 0 0; font:bold 1.775em/1.25 font-family:"Times New Roman", TimesNewRomanPSMT, Times, "Droid Serif Pro", serif !important}
+   #stad-part h2, #stad-part p, #stad-part td {font: normal 1.0em/1.25 "Times New Roman", TimesNewRomanPSMT, Times, "Droid Serif Pro", serif !important}
+   #stad-part img.center {margin-left:auto; margin-right:auto; display:block; max-width:100%; width:auto; height:auto; text-align:center; page-break-inside:avoid}
+   #stad-part img.left, #stad-part img.right {max-width:35% !important; text-align:center; page-break-inside:avoid}
+   #stad-part img.wider {max-width:50% !important;}
+   #stad-part a {text-decoration:underline; color:blue}
+ }
+  @media screen,print,handheld {
+   #stad-part table {width:100%; margin:0 auto; text-align:left}
+   #stad-part hr {width: 20%; text-align: center; padding-top: 2px; padding-bottom: 2px; border: 1px solid black; background-color: black; margin-left: 40%}
+   #stad-part .pnote, #stad-part .snote, #stad-part .hidden {display:none}
+   #stad-part .border {border:1px solid black}
+   #stad-part .cursive {font-family:SnellRoundhand, "Comic Sans MS", Zapfino, "Droid Serif Pro Italic", cursive}     /* generic handwriting */
+   #stad-part .emoticons {font:bold 1.4em/1.0 Wingdings, 'Zapf Dingbats', 'MS Gothic Regular', Arial, ArialMT, Helvetica, "Droid Sans Pro", sans-serif !important}
+   #stad-part .PC-browser {background:#AAC; margin:2.25% 4%; padding:0 2.25%; overflow:hidden; page-break-inside:avoid; border:1px solid black;
+    -moz-border-radius: 20px; -webkit-border-radius:20px; -khtml-border-radius: 20px; border-radius: 20px}
+   #stad-part .PC-browser p {font: normal 1.0em/1.25 Arial, ArialMT, Helvetica, "Droid Sans Pro", sans-serif !important}
+   #stad-part .thought {font-style:italic}
+   #stad-part span.red-strike {color:red; text-decoration:line-through}
+   #stad-part span.red-strike>span {color:#1F3A59}
+   #stad-part h2 {margin:2.75em auto 1em; font-weight:bold !important}
+   #stad-part h5+h2 {margin:1em auto; font-weight:bold !important}
+   --#stad-part td+h2 {margin:3.75em auto 1em; font-weight:bold !important}
+   #stad-part p {margin:1em auto}
+   #stad-part p.clear {clear:both}
+   #stad-part wbr {display:inline-block}
+   #stad-part .centered {text-align:center}
+   #stad-part .credits {margin:8.75% auto 2.25%}
+   #stad-part .superscript {font-size:0.7em; vertical-align:super}
+   #stad-part .subscript {font-size:0.7em; vertical-align:sub}
+   #stad-part .writing {font-style:italic; font-size:1.25em}
+   #stad-part p.verse, #stad-part p.cursive, #stad-part p.cursive-A, #stad-part p.cursive-C, #stad-part p.cursive-G, #stad-part p.cursive-H, #stad-part p.cursive-K {margin:2.25% 6.25%; overflow:hidden}
+   /* The required license for local copies of Google's open fonts is GoogleOpenFontsLicense.txt, which should be in the same folder as this style sheet and the referenced font files */
+   #stad-part .cursive-A {font:bold 1.5em/1.25 'Architects Daughter', SnellRoundhand, "Comic Sans MS", Zapfino, "Droid Serif Pro Italic", cursive !important}
+   #stad-part .cursive-C {font:bold 1.3em/1.225 'Satisfy', SnellRoundhand, 'Comic Sans MS', Zapfino, 'Droid Serif Pro Italic', cursive !important}
+   #stad-part .cursive-G {font:bold 1.49em/1.25 'Dancing Script', SnellRoundhand, 'Comic Sans MS', Zapfino, 'Droid Serif Pro Italic', cursive !important}
+   #stad-part .cursive-H {font:bold 1.275em/1.25 'Over the Rainbow', SnellRoundhand, 'Comic Sans MS', Zapfino, 'Droid Serif Pro Italic', cursive !important}
+   #stad-part .cursive-K {font:bold 1.28em/1.225 'Gloria Hallelujah', SnellRoundhand, 'Comic Sans MS', Zapfino, 'Droid Serif Pro Italic', cursive !important}
+   #stad-part #codes, #stad-part #bookCodes {margin:1.25% auto; font-style:italic !important}
+   #stad-part #author, #stad-part #translator {margin:2.5% auto 0; font-weight:bold !important; font-size:1.2em !important}
+   #stad-part #authors-email, #stad-part #translators-email {margin:2.5% auto 0; font-style:italic !important; font-size:0.75em !important}
+   #stad-part #initial-disclaimer, #stad-part #final-disclaimer, #stad-part #final-final-disclaimer {font-family:Verdana, Geneva, sans-serif; line-height:1.15; background-color:#AAA; text-align:left; vertical-align:middle}
+   #stad-part #initial-disclaimer {font-size:0.72em; padding:2% 3.8% 2% 4.2%; margin:2% 7.25%}
+   #stad-part #final-disclaimer, #stad-part #final-final-disclaimer {font-size:0.775em; width:53.75%; padding:0.625% 3.75%; border:3px double gray; margin:1.25% auto; page-break-inside:avoid}
+   #stad-part .left {float:left; margin:0.5% 3% 1% 0 !important}
+   #stad-part .right {float:right; margin:0.5% 0 1% 3% !important}
+ }
+  @media print {
+   #stad-part .cursive-A, #stad-part .cursive-G {font-size:1.25em !important}
+   #stad-part .cursive-C , #stad-part .cursive-H, #stad-part .cursive-K font-size:1em !important}
+ }
